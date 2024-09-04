@@ -3,6 +3,7 @@ import json
 import asyncio
 from random import randint
 
+
 class WSConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         await self.accept()
